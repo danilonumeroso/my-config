@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# History
+
+HISTCONTROL=ignoreboth # no duplicate lines
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+export NPM_CONFIG_PREFIX=~/.local/lib/nodejs
+export PYTHONDONTWRITEBYTECODE='disable'
+
+export LS_COLORS=$LS_COLORS:'*.pdf=00;33:'

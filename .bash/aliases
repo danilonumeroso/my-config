@@ -1,0 +1,25 @@
+#!/bin/bash
+
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+alias del='gio trash'
+alias rm='echo "rm is disabled, either use del or the full path /bin/rm"'
+
+alias chrome='google-chrome &> /dev/null'
+alias google-chrome='google-chrome &> /dev/null'
+
+alias start-emacs="/bin/emacs --daemon"
+alias kill-emacs='emacsclient -e "(kill-emacs)"'
+alias ec='emacsclient'
+
+# Private aliases
+. ~/.bash/aliases.private

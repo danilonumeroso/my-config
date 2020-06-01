@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}[\[\033[01;00m\]\u\[\033[00m\]@\h \[\033[01;00m\]\W\[\033[00m\]]$ '
+else
+    PS1='[${debian_chroot:+($debian_chroot)}\u:\w\$]'
+fi
+
+unset color_prompt force_color_prompt
