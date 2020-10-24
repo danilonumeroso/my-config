@@ -4,7 +4,7 @@
 
 (setq sml/position-percentage-format nil)
 
-(setq line-number-mode nil)
-(setq column-number-mode nil)
+(setq line-number-mode t)
+(setq column-number-mode t)
 
 (setq sml/show-remote nil)
