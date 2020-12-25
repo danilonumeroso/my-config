@@ -15,9 +15,11 @@
     elpy
     company
     atom-dark-theme
+    atom-one-dark-theme
     solarized-theme
     irony
     counsel
+    smart-mode-line
     )
   )
 
@@ -78,18 +80,16 @@
 ;; ===================================
 ;; section: AUTO-GENERATED
 ;; ===================================
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   (quote
-    ("1e9001d2f6ffb095eafd9514b4d5974b720b275143fbc89ea046495a99c940b0" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
  '(inhibit-startup-screen t)
  '(package-selected-packages
    (quote
-    (smart-mode-line-atom-one-dark-theme powerline smart-mode-line tide solarized-theme rust-mode material-theme magit fontawesome elpy dracula-theme counsel company-irony clues-theme bubbleberry-theme blackboard-theme atom-one-dark-theme atom-dark-theme arjen-grey-theme))))
+    (company-irony smart-mode-line tide solarized-theme sml-modeline irony elpy counsel atom-one-dark-theme atom-dark-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
