@@ -1,5 +1,0 @@
-#!/bin/bash
-
-. /usr/share/bash-completion/bash_completion
-
-complete -F _pyenv pyenv
